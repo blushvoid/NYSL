@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* header */
+.header {
+  font-family: 'Archivo Black', sans-serif;
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+.header-bar{
+  padding: 5px;
+  text-align: center;
+  background: rgba(16, 80, 64, 0.562);
+  color: white;
+  font-size: 30px;
+  
+}
+h1 {
+  font-size: 40px;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  vertical-align: baseline;
+
+}
+
+.h-image {
+  overflow: hidden;
+
+}
+
+.logo {
+  width: 140px;
+  position: absolute;
+  bottom: -40px;
+  right: 40px;
+}
+
+/* body */
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+  color: black;
+
+}
+
+.links {
+  margin-left: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: absolute;
+  height: 100%;
+  overflow: auto;
+}
+
+.links a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.links a.active {
+  background-color: rgba(0, 80, 60, 0.486);
+  color: white;
+}
+
+.links a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+h2 {
+  display: none;
+}
+
+h4 {
+  font-style: oblique;
+  font-size: 20px;
+}
+
+h5 {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+/* paragraph */
+p {
+  font-size: 14px;
+}
+
+
+/* formating */
+.side-image {
+  display: none;
+}
+
+.content {
+  max-width: 850px;
+  margin: auto;
+  word-wrap: break-word;
+  text-align: left;
+  padding-left: 26%;
+
+
+
+}

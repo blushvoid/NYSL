@@ -1,0 +1,110 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+/* header */
+.header {
+
+    padding: 20px;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+
+}
+
+.links {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-left: 250px;
+    padding-top: 50px;
+
+}
+
+a:visited {
+    color: #003333;
+}
+
+.links a.active {
+    background-color: rgba(0, 80, 60, 0.486);
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+
+/* body */
+body {
+    background-color: #deeded;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+h4 {
+    font-style: oblique;
+    font-size: 20px;
+}
+
+h5 {
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.image {
+    width: 150px;
+    right: 160px;
+    top: 0px;
+    padding-right: 20px;
+    position: relative;
+    float: left;
+}
+
+/* paragraph */
+p {
+
+    font-size: 14px;
+}
+
+
+/* formating */
+.header-bar {
+    display: none;
+}
+
+.h-image {
+    display: none;
+}
+
+.side-image {}
+
+.content {
+    margin-left: 300px;
+    width: 40%;
+    position: static;
+    word-wrap: break-word;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.788);
+    padding: 25px;
+    position: absolute;
+
+
+}
